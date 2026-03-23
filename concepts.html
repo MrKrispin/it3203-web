@@ -1,11 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concepts</title>
+    <link rel="stylesheet" href="CSS/it3203style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTTP and Its Evolution</h1>
+    </header>
+    <h2>Table of Contents</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="concepts.html">Concepts</a></li>
+        <li><a href="modern-http.html">Modern HTTP</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content section with information about HTTP concepts -->
+    <main>
+      <section>
+        <h2>Key Concepts of HTTP</h2>
+        <p>
+          HTTP (Hypertext Transfer Protocol) is the foundation of data
+          communication on the World Wide Web. It defines how messages are
+          formatted and transmitted between a web browser and a web server. It
+          includes several important concepts which help define how data is
+          exchanged between clients and servers.
+        </p>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <strong>Client-Server Model:</strong> HTTP follows a client-server
+            architecture where the client (usually a web browser) sends requests
+            to the server, and the server processes those requests and sends
+            back responses.
+          </li>
+          <li>
+            <strong>URL (Uniform Resource Locator):</strong> - The address of a
+            resource on the internet. It is the name that identifies the
+            location of a resource on the web.
+          </li>
+          <li>
+            <strong>Headers:</strong> Provide additonal information about
+            requests and responses.
+          </li>
+          <li>
+            <strong>Status Codes:</strong> Three-digit numbers returned by the
+            server to indicate the result of a request.
+          </li>
+          <li>
+            <strong>Cookies:</strong> Store session data and user preferences.
+            Client-side storage mechanism.
+          </li>
+          <li>
+            <strong>Stateless Protocol:</strong> Each request from a client to a
+            server is independent, and the server does not retain information
+            about previous requests.
+          </li>
+        </ul>
+      </section>
+
+      <!--Table describing common HTTP Status Codes-->
+      <section>
+        <h2>Common HTTP Status Codes</h2>
+        <table border="1">
+          <tr>
+            <th>Code</th>
+            <th>Meaning</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>200</td>
+            <td>OK</td>
+            <td>
+              The request was successful, and the server is returning the
+              requested resource.
+            </td>
+          </tr>
+          <tr>
+            <td>404</td>
+            <td>Not Found</td>
+            <td>The requested resource could not be found on the server.</td>
+          </tr>
+          <tr>
+            <td>500</td>
+            <td>Internal Server Error</td>
+            <td>
+              An error occurred on the server while processing the request.
+            </td>
+          </tr>
+          <tr>
+            <td>301</td>
+            <td>Moved Permanently</td>
+            <td>
+              The requested resource has been permanently moved to a new URL.
+            </td>
+          </tr>
+          <tr>
+            <td>400</td>
+            <td>Bad Request</td>
+            <td>
+              The server could not understand the request due to invalid syntax.
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2>Limitations of HTTP</h2>
+        <p>
+          Early versions of HTTP had several limitations, including the need to
+          create a new connection for each request. This caused delays when
+          loading pages with multiple elements such as images and videos.
+        </p>
+        <p>
+          These limitations led to inefficiencies, increased latency, and
+          network congestion, especially as websites became more complex as time
+          went on. These challenges highlighted the need for improvements in
+          HTTP to better handle the demands of modern web applications.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer section with information about the creator of the website and information about the course -->
+    <footer>
+      <p>
+        Created by: <a href="https://github.com/mrkrispin">Kristian Mejia</a>
+      </p>
+      <p>
+        This website was created as a class project for <br />
+        IT 3203 - Intro to Web Development
+      </p>
+      <p>
+        <a href="https://ksuweb.github.io/IT3203/" target="_blank"
+          >Course Website</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>

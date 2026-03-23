@@ -1,11 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <!-- Link to the CSS file for styling -->
+    <link rel="stylesheet" href="CSS/it3203style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTTP and Its Evolution</h1>
+    </header>
+    <h2>Table of Contents</h2>
+    <!-- Navigation menu with links to different sections of the website -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="concepts.html">Concepts</a></li>
+        <li><a href="modern-http.html">Modern HTTP</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content section with information about how HTTP works -->
+    <main>
+      <section>
+        <h2>How HTTP Works</h2>
+        <p>
+          HTTP operates using a client-server model. A client, such as a web
+          browser, sends a request to a server. The server processes the request
+          and sends back a response containing the requested resource, such as a
+          webpage, image, or video.
+        </p>
+      </section>
+      <section>
+        <h2>The HTTP Request-Response Cycle</h2>
+        <p>
+          Every time a user visits a website, their browser sends an HTTP
+          request to the server. The server processes the request and sends back
+          an HTTP response containing the requested resource along with
+          information describing the result of the request. This cycle of
+          requests and responses is fundamental to how the web functions,
+          allowing users to access and interact with content on the internet.
+        </p>
+      </section>
+      <section>
+        <h2>The Step by Step Process</h2>
+        <ol>
+          <li>
+            The client (a web browser) sends an HTTP request to the server.
+          </li>
+          <li>The server receives the request and processes it.</li>
+          <li>
+            The server sends back an HTTP response containing the requested
+            resource and status code.
+          </li>
+          <li>
+            The client receives the response and displays the content to the
+            user.
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2>Stateless Communication</h2>
+        <p>
+          HTTP is a stateless protocol, meaning that each request is independent
+          and the server does not retain any information about previous
+          requests. This means that every request must include all necessary
+          information for the server to understand and process it, as the server
+          does not have any memory of past interactions with the client.
+        </p>
+      </section>
+      <section>
+        <h2>Role of TCP</h2>
+        <p>
+          HTTP relies on Transmission Control Protocol (TCP) to ensure reliable
+          data transfer. TCP establishes a connection and ensures the data is
+          delivered correctly between the client and server.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer section with information about the creator of the website and information about the course -->
+    <footer>
+      <p>
+        Created by: <a href="https://github.com/mrkrispin">Kristian Mejia</a>
+      </p>
+      <p>
+        This website was created as a class project for <br />
+        IT 3203 - Intro to Web Development
+      </p>
+      <p>
+        <a href="https://ksuweb.github.io/IT3203/" target="_blank"
+          >Course Website</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>

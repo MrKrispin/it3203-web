@@ -1,11 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern HTTP</title>
+    <!-- Link to the CSS file for styling the website -->
+    <link rel="stylesheet" href="CSS/it3203style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>HTTP and Its Evolution</h1>
+    </header>
+    <h2>Table of Contents</h2>
+    <!-- Navigation menu with links to different sections of the website -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="concepts.html">Concepts</a></li>
+        <li><a href="modern-http.html">Modern HTTP</a></li>
+        <li><a href="references.html">References</a></li>
+      </ul>
+    </nav>
+    <!-- Main content section with information about modern HTTP and its evolution -->
+    <main>
+      <section>
+        <h2>Modern HTTP</h2>
+        <p>
+          As the internet grew and web applications became more complex,
+          HTTP/1.1 began to show performance limitations. This led to the
+          development of newer versions of HTTP that could better support modern
+          web usage, including faster data transfer and improved efficiency.
+        </p>
+      </section>
+      <section>
+        <h2>HTTP/2</h2>
+        <p>
+          HTTP/2 introduced several major improvements to address the
+          limitations of HTTP/1.1. One of the most important features is
+          multiplexing, which allows multiple requests and responses to be sent
+          over a single connection at the same time.
+        </p>
+        <p>
+          HTTP/2 also introduced header compression, which reduces the size of
+          headers and improves performance. Additionally, it supports server
+          push, allowing servers to send resources to clients before they are
+          requested. Helps with page load times and overall user experience.
+        </p>
+      </section>
+      <section>
+        <h2>HTTP/3 and the QUIC Protocol</h2>
+        <p>
+          HTTP/3 builds on the improvements of HTTP/2 by using a new transport
+          protocol called QUIC, which runs over UDP instead of TCP. This helps
+          reduce latency and improve performance, especially on mobile networks.
+        </p>
+        <p>
+          HTTP/3 also allows connections to continue even when switching
+          networks, such as moving from Wi-Fi to cellular data, making it more
+          reliable for modern devices.
+        </p>
+      </section>
+      <section>
+        <h2>The future of HTTP</h2>
+        <p>
+          As the internet continues to grow, HTTP will continue to evolve to
+          meet the demands of modern web applications. Future improvements are
+          likely to focus on increasing secruity, reducing latency, and
+          improving performance, especially for mobile devices.
+        </p>
+        <p>
+          Although HTTP/3 is still being adopted, it represents a major step
+          forward in how data is transmitted across thr web and will be a more
+          widely used protocol over time.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer section with information about the creator of the website and information about the course -->
+    <footer>
+      <p>
+        Created by: <a href="https://github.com/mrkrispin">Kristian Mejia</a>
+      </p>
+      <p>
+        This website was created as a class project for <br />
+        IT 3203 - Intro to Web Development
+      </p>
+      <p>
+        <a href="https://ksuweb.github.io/IT3203/" target="_blank"
+          >Course Website</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
